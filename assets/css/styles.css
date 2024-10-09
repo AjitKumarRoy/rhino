@@ -410,3 +410,46 @@ img {
 
     }
 }
+
+
+
+/* Models */
+
+.carousel-inner h5 {
+    color: #eee;
+    font-size: 24px;
+    font-weight: 700;
+    /* move this content to top */
+    /* position: absolute;
+    top: 80%;
+    left: 0%;
+    z-index: 1; */
+    margin-bottom: 0%;
+}
+
+.carousel-inner p {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#models {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-container {
+    background-color: var(--color-body);
+    width: 600px;
+    height: 600px;
+    align-items: center;
+}
+
+.carousel-inner img {
+
+}
+
+.carouselExampleCaptions button{
+    color: #000;
+}
