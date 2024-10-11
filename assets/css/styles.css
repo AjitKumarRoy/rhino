@@ -446,10 +446,13 @@ img {
     align-items: center;
 }
 
-.carousel-inner img {
 
-}
 
 .carouselExampleCaptions button{
     color: #000;
+}
+
+
+body {
+    overflow-x: hidden;
 }
