@@ -102,6 +102,7 @@ img {
 
 .navbar {
     background-color: var(--color-navbar);
+    transition: top 0.3s; /* Smooth transition effect */
 }
 
 .navbar-brand {

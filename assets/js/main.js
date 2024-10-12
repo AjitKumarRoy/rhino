@@ -73,7 +73,8 @@ let lastScrollTop = 0; // To store the last scroll position
 const navbar = document.querySelector('.navbar');
 
 window.addEventListener('scroll', function() {
-  let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  //let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  let scrollTop = window.scrollY;
 
   if (scrollTop > lastScrollTop) {
     // Scrolling down - hide the navbar
@@ -84,6 +85,8 @@ window.addEventListener('scroll', function() {
   }
   lastScrollTop = scrollTop;
 });
+
+
 
 
 
