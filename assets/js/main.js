@@ -69,6 +69,21 @@ AOS.init({
 
 
 
+let lastScrollTop = 0; // To store the last scroll position
+const navbar = document.querySelector('.navbar');
+
+window.addEventListener('scroll', function() {
+  let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (scrollTop > lastScrollTop) {
+    // Scrolling down - hide the navbar
+    navbar.style.top = "-72px"; // Adjust the value based on your navbar height
+  } else {
+    // Scrolling up - show the navbar
+    navbar.style.top = "0";
+  }
+  lastScrollTop = scrollTop;
+});
 
 
 
