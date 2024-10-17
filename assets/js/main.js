@@ -89,6 +89,33 @@ window.addEventListener('scroll', function() {
 
 
 
+//Logo Typing Effect
+
+const text = "Rhino E-Bike";
+    let index = 0;
+
+    function typeEffect() {
+      const element = document.getElementById('typed-text');
+      
+      if (index < text.length) {
+        element.textContent += text.charAt(index);
+        index++;
+        setTimeout(typeEffect, 150);
+      } else {
+        setTimeout(() => {
+          element.textContent = "";
+          index = 0;
+          setTimeout(typeEffect, 500); // Restart typing after a short pause
+        }, 2000);  // Pause for 2 seconds before resetting
+      }
+    }
+
+    window.onload = () => {
+      typeEffect();
+    };
+
+
+
 
 
 
