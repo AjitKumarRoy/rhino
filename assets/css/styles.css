@@ -356,50 +356,40 @@ img {
             display: none;
         }
 
-        .cd-scroll-container {
+        /* .cd-scroll-container {
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
-            /* Prevent wrapping */
+        
             overflow-x: auto;
-            /* Enable horizontal scroll */
+        
             gap: 10px;
-            /* Add space between items */
+        
             scroll-snap-type: x mandatory;
-            /* Snap scrolling to items */
+        
             -ms-overflow-style: none;
-            /* Hide scrollbar in IE and Edge */
-            /* cursor: grab;
-            Changes cursor to indicate dragging is possible */
+    
 
         }
 
-        /* Hide scrollbar in WebKit browsers (Chrome, Safari) */
+        
         .cd-scroll-container::-webkit-scrollbar {
             display: none;
         }
 
-        /* Add this style when dragging starts */
-        /* .cd-scroll-container.active {
-            cursor: grabbing;
-            
-        } */
-
+        
         .cd {
             flex: 0 0 auto;
-            /* Prevent shrinking, allow growing */
+            
             min-width: 250px;
-            /* Set a minimum width for each block */
+        
             margin-right: 15px;
             border-radius: 10px;
             padding: 10px;
             height: auto;
-            /* background-color: #f2f2f2;
-            transition: background-color 0.3s; */
+        
             scroll-snap-align: start;
-            /* Snap alignment */
             width: 80vw;
-            /* Each CD takes 80% of the viewport width */
             scroll-behavior: smooth;
         }
 
@@ -407,7 +397,7 @@ img {
             width: 100%;
             display: flex;
             padding-right: 85%;
-        }
+        } */
 
     }
 }
